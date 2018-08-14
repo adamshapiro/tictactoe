@@ -1,0 +1,26 @@
+// Place all the styles related to the sample controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.status {
+    font-size: 36px;
+}
+
+.square {
+    position: relative;
+    padding-top: 15%;
+    text-align: center;
+    font-size: 48px;
+    line-height: 100px;
+    font-weight: bold;
+    margin-right: -1px;
+    margin-top: -1px;
+
+    span {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+}
